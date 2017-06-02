@@ -1,0 +1,1 @@
+[22-Jun-2016 20:04:28 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/nasryarg/public_html/photos/admin/index.php on line 95

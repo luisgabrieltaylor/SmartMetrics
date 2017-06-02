@@ -1,0 +1,13 @@
+[20-May-2016 12:07:50 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/nasryarg/public_html/gb/save_data_facebook.php on line 8
+[20-May-2016 12:08:40 America/Chicago] PHP Fatal error:  Class 'mysqli' not found in /home/nasryarg/public_html/gb/save_data_facebook.php on line 39
+[20-May-2016 12:08:59 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/nasryarg/public_html/gb/save_data_facebook.php on line 8
+[20-May-2016 12:09:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '$' in /home/nasryarg/public_html/gb/save_data_facebook.php on line 35
+[20-May-2016 12:10:40 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nasryarg/public_html/gb/save_data_facebook.php on line 22
+[20-May-2016 12:11:02 America/Chicago] PHP Warning:  mysql_num_rows() expects exactly 1 parameter, 2 given in /home/nasryarg/public_html/gb/save_data_facebook.php on line 22
+[20-May-2016 12:15:45 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nasryarg/public_html/gb/save_data_facebook.php on line 22
+[20-May-2016 12:18:34 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nasryarg/public_html/gb/save_data_facebook.php on line 24
+[20-May-2016 12:21:18 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/nasryarg/public_html/gb/save_data_facebook.php on line 24
+[20-May-2016 12:21:39 America/Chicago] PHP Parse error:  syntax error, unexpected '$link' (T_VARIABLE) in /home/nasryarg/public_html/gb/save_data_facebook.php on line 24
+[20-May-2016 12:21:52 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/nasryarg/public_html/gb/save_data_facebook.php on line 24
+[20-May-2016 12:27:43 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nasryarg/public_html/gb/save_data_facebook.php on line 3
+[21-May-2016 16:12:53 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/nasryarg/public_html/gb/index.php on line 102

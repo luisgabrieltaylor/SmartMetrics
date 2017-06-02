@@ -1,0 +1,75 @@
+[17-Jan-2017 17:57:14 America/Chicago] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 24
+[17-Jan-2017 18:16:28 America/Chicago] PHP Catchable fatal error:  Argument 1 passed to Closure::{closure}() must be an instance of Request, instance of Slim\Http\Request given in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 14
+[24-Jan-2017 16:18:20 America/Chicago] PHP Fatal error:  Call to a member function getParsedBody() on a non-object in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 61
+[24-Jan-2017 16:20:45 America/Chicago] PHP Fatal error:  Call to a member function getParsedBody() on a non-object in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 61
+[24-Jan-2017 16:23:32 America/Chicago] PHP Fatal error:  Call to a member function getParsedBody() on a non-object in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 61
+[01-Feb-2017 18:58:33 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 67
+[01-Feb-2017 19:23:04 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 63
+[01-Feb-2017 19:30:52 America/Chicago] Slim Application Error:
+Type: Slim\Exception\ContainerValueNotFoundException
+Message: Identifier &quot;respose&quot; is not defined.
+File: /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/Container.php
+Line: 120
+Trace: #0 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/Container.php(172): Slim\Container->get('respose')
+#1 /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php(63): Slim\Container->__get('respose')
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/Route.php(344): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/nasryarg/public_html/juanvaldez/public/index.php(36): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[01-Feb-2017 20:00:38 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 77
+[01-Feb-2017 20:08:17 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 78
+[01-Feb-2017 20:49:19 America/Chicago] Slim Application Error:
+Type: BadMethodCallException
+Message: Method render is not a valid method
+File: /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/App.php
+Line: 124
+Trace: #0 /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php(68): Slim\App->__call('render', Array)
+#1 /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php(68): Slim\App->render(200, Array)
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/Route.php(344): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/nasryarg/public_html/juanvaldez/public/index.php(36): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[01-Feb-2017 20:50:07 America/Chicago] Slim Application Error:
+Type: BadMethodCallException
+Message: Method render is not a valid method
+File: /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/App.php
+Line: 124
+Trace: #0 /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php(68): Slim\App->__call('render', Array)
+#1 /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php(68): Slim\App->render(200, Array)
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/Route.php(344): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/Route.php(316): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/App.php(438): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(116): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/App.php(332): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/nasryarg/public_html/juanvaldez/vendor/slim/slim/Slim/App.php(293): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/nasryarg/public_html/juanvaldez/public/index.php(36): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[01-Feb-2017 20:52:51 America/Chicago] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 66
+[01-Feb-2017 22:08:21 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 69
+[01-Feb-2017 22:16:44 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 79
+[09-Feb-2017 15:50:51 UTC] PHP Fatal error:  Class 'Slim\Slim' not found in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 130
+[09-Feb-2017 15:54:11 UTC] PHP Fatal error:  Class 'Slim\Slim' not found in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 130
+[09-Feb-2017 15:55:43 UTC] PHP Fatal error:  Class 'Slim\Slim' not found in /home/nasryarg/public_html/juanvaldez/app/route/coupons_route.php on line 130

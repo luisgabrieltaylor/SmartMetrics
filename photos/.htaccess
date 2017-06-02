@@ -1,0 +1,16 @@
+Options All -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^http://(.+\.)?inhousesv\.com/ [NC]
+RewriteCond %{HTTP_REFERER} !^$
+RewriteRule .*\.(jpg|gif|bmp|png)$ http://inhousesv.com/images/no-hotlinking.png [L]
+
+<FilesMatch "^\.(ht)|(\.*~)$">
+ order Deny,Allow
+ Deny from all
+</FilesMatch>
+
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
